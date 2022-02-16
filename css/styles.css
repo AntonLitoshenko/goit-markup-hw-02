@@ -1,196 +1,179 @@
-:root{
-    --primary-font-family:'Roboto', sans-serif;
-    --primary-letter-spacing: 0.03em;
-    --primary-font-size: 14px;
-    --primary-discription-color:#212121;
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --primary-letter-spacing: 0.03em;
+  --primary-font-size: 14px;
+  --primary-discription-color: #757575;
+  --main-dark-color: #212121;
+  --accent-color: #2196f3;
+  --primary-line-height: 1.14;
+  --main-font-waight: 400;
 }
 
-
-body{
-    font-family: var(--primary-font-family);
-    letter-spacing: var(--primary-letter-spacing);
-    font-size: var(--primary-font-size);
-    color:var(--primary-discription-color);
+body {
+  font-family: var(--primary-font-family);
+  letter-spacing: var(--primary-letter-spacing);
+  font-size: var(--primary-font-size);
+  color: var(--primary-discription-color);
+  line-height: var(--primary-line-height);
+  font-weight: var(--main-font-waight);
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.link{
-    text-decoration: none;
-    color: inherit;
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 /* ==========LOGO========== */
-.logo{
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.logo-start{
-    color: #2196F3;
+.logo-start {
+  color: var(--accent-color);
 }
 
-.logo-header{
-color: #000000;
+.logo-header {
+  color: #000000;
 }
 
-.logo-footer{
-    color: #ffffff;
+.logo-footer {
+  color: #ffffff;
 }
 
 /* ==========HEADER========== */
-.nav-list-link{
-    font-weight: 500;
-    font-size: inherit;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.nav-list-link {
+  font-weight: 500;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .nav-list-link:hover,
-.nav-list-link:focus{
-    color: #2196F3;
+.nav-list-link:focus {
+  color: var(--accent-color);
 }
 
-.header-contacts-link{
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+.header-contacts-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts-link:hover,
-.header-contacts-link:focus{
-    color: #2196F3;
+.header-contacts-link:focus {
+  color: var(--accent-color);
 }
 
 /* ==========HERO========== */
-.header-discription{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.header-discription {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.modal-btn{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.86;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 .modal-btn:hover,
-.modal-btn:focus{
-    background-color: #188CE8;
+.modal-btn:focus {
+  background-color: #188ce8;
 }
-.hero{
-    background-color: #2F303A;
+.hero {
+  background-color: #2f303a;
 }
 
 /* ==========ADVANTAGE========== */
-.advantage-list-title{
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
+.advantage-list-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-dark-color);
 }
-.advantage-discription{
-    font-weight: 400;
-    line-height: 1.71;
-    color: #757575;
+.advantage-discription {
+  line-height: 1.71;
 }
 
 /* ==========ABOUT========== */
-.about-section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-dark-color);
 }
 
 /* ==========TEAM========== */
-.team-section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+
+.team-worker-name {
+  font-weight: 500;
+  color: var(--main-dark-color);
 }
-.team-worker-name{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+.team-worker-name,
+.team-discription {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
-.team-discription{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    color: #757575;
-}
-.team{
-    background-color: #F5F4FA;
+.team {
+  background-color: #f5f4fa;
 }
 
 /* ==========FOOTER========== */
-
-.footer-link{
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.17;
+.address {
+  font-style: normal;
+}
+.footer-link {
+  line-height: 1.17;
 }
 
-.footer-link{
-    color: rgb(250, 250, 250,0.6);
+.footer-link {
+  color: rgb(250, 250, 250, 0.6);
 }
 
-.address-item{
-    color: #ffffff;
+.address-item {
+  color: #ffffff;
 }
 
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
-
 
 /* ==========PORTFOLIO========== */
 
-.portfolio-nav-list-btn{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    background-color: #F5F4FA;
+.portfolio-nav-list-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  background-color: #f5f4fa;
 }
 .portfolio-nav-list-btn:hover,
-.portfolio-nav-list-btn:focus{
-    color: #ffffff;
-    background-color: #2196F3;
+.portfolio-nav-list-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
-
-/* ==========PROJECTS========== */
-
-.projects-title{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.projects-discription{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    color: #757575;   
+.projects-discription {
+  font-size: 16px;
+  line-height: 1.88;
 }
-
-
-
-
-    
-
