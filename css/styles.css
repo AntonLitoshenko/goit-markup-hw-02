@@ -31,9 +31,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-
-.logo-start {
   color: var(--accent-color);
 }
 
@@ -55,16 +52,6 @@ body {
 
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: var(--accent-color);
-}
-
-.header-contacts-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.header-contacts-link:hover,
-.header-contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -137,12 +124,17 @@ body {
 .address {
   font-style: normal;
 }
+
 .footer-link {
   line-height: 1.17;
 }
 
 .footer-link {
   color: rgb(250, 250, 250, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 
 .address-item {
